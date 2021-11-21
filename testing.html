@@ -1,0 +1,136 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>COSC2196 <br> Introduction to Information Technology</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul id="nav">
+                    <li><a href="index.html">HOME</a></li>
+                    <li>
+                        <a href="#">HOW IT WORKS</a>
+                        <ul>
+                            <li><a href="aims.html">AIMS</a></li>
+                            <li><a href="plansprogress.html">PLANS & PROCESS</a></li>
+                            <li><a href="roles.html">ROLES</a></li>
+                            <li><a href="scopelimit.html">SCOPE & LIMITS</a></li>
+                            <li><a href="toolstech.html" >TOOLS & TECHNOLOGY</a></li>
+                            <li><a href="testing.html" >TESTING</a></li>
+                            <li><a href="timeframe.html" >TIMEFRAME</a></li>
+                            <li><a href="risk.html" >RISK</a></li>
+                            <li><a href="group.html">GROUP PROCESS & COMMUNICATION</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="download.html">DOWNLOAD</a></li>
+					<li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav> 
+        <div class="text-box">
+            <h1>HOW IT WORKS</h1>
+        </div>
+    </section>
+    
+<!---------- Blog Page Content ---------->
+    
+    <section class="blog-content">
+    <div class="row">
+    <div class="blog-left">
+        <img src="images/saved.png">
+        <h2>Testing</h2>
+        
+        <p>Theorising of how we would do this, we plan to test it in multiple phases.<br>
+		Firstly, we would just use it individually to see how everything is working. Assuming everything we find works; we would then move on to the next phase. We would go on to the Beta testing phase and bring in people who are interested in these sorts of projects, most likely through something like an Instagram account or publishing through the university and have them be our Beta Participants and allow them to use the app. Assuming that after receiving valuable feedback and without any critical errors , we would then release the app on a single platform, to a limited audience. In terms of the success criteria, we would have succeeded once the app is used by unknown users, and it results in a helpful and positive experience for the end user.</p>
+
+        
+        <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+            </form>
+        </div>
+    </div>
+        
+    <div class="blog-right">
+        <h3>Categories</h3>
+        <div>
+            <span><a href="aims.html">AIMS</a></span>
+            <span>1</span>
+        </div>
+        <div>
+            <span><a href="plansprogress.html">PLANS & PROCESS</a></span>
+            <span>1</span>
+        </div>
+        <div>
+            <span><a href="roles.html">ROLES</a></span>
+            <span>1</span>
+        </div>
+        <div>
+            <span><a href="scopelimit.html">SCOPE & LIMITS</a></span>
+            <span>1</span>
+        </div>
+        <div>
+            <span><a href="toolstech.html" >TOOLS & TECHNOLOGY</a></span>
+            <span>1</span>
+        </div>
+        <div>
+            <span><a href="testing.html" >TESTING</a></span>
+            <span>1</span>
+        </div>
+        <div>
+            <span><a href="timeframe.html" >TIMEFRAME</a></span>
+            <span>1</span>
+        </div>
+        <div>
+            <span><a href="risk.html" >RISK</a></span>
+            <span>1</span>
+        </div>
+        <div>
+            <span><a href="group.html">GROUP PROCESS & COMMUNICATION</a></span>
+            <span>1</span>
+        </div>     
+    </div> 
+    
+    </div>
+    </section>
+	
+<!-------- footer ---------->
+
+<section class="footer">
+        <p>Just a bunch of fun loving students, looking to make waves in the IT World! </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+		<p>made with <i class="fa fa-heart-o"></i> by Group A2S3</p>
+</section>  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    

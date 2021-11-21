@@ -1,0 +1,141 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>COSC2196 <br> Introduction to Information Technology</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul id="nav">
+                    <li><a href="index.html">HOME</a></li>
+                    <li>
+                        <a href="#">HOW IT WORKS</a>
+                        <ul>
+                            <li><a href="aims.html">AIMS</a></li>
+                            <li><a href="plansprogress.html">PLANS & PROCESS</a></li>
+                            <li><a href="roles.html">ROLES</a></li>
+                            <li><a href="scopelimit.html">SCOPE & LIMITS</a></li>
+                            <li><a href="toolstech.html" >TOOLS & TECHNOLOGY</a></li>
+                            <li><a href="testing.html" >TESTING</a></li>
+                            <li><a href="timeframe.html" >TIMEFRAME</a></li>
+                            <li><a href="risk.html" >RISK</a></li>
+                            <li><a href="group.html">GROUP PROCESS & COMMUNICATION</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="download.html">DOWNLOAD</a></li>
+					<li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav> 
+        <div class="text-box">
+            <h1>HOW IT WORKS</h1>
+        </div>
+    </section>
+    
+<!---------- Aims Content Blog Page ---------->
+    
+    <section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/login.png">
+            <h2>Aims</h2>
+            
+            <p>The aim of our project is to provide people with an app (TooDoLoo) that maps out all the free publicly listed restrooms and their facilities. We plan to include all restrooms located in venue sites as well such as malls, bars and cafes and other locations that are accessible to the public, in this city. This app would help people locate restrooms near them as well as providing useful information such as cleanliness, safety, and accessibility mostly in the form of a user-based rating.  This application is currently targeting one city but can then be upgraded to include all cities in Australia and later on we can expand it to be a service accessible in every city across the globe. Initially we will be releasing an app for the Google Playstore platform for android devices. </p>
+            <br>
+            <p>Our first goal is to catalogue all the unrestricted restrooms open to the public in the city of Melbourne. The reason for this is so that people can find restrooms close to them and make informed decisions about which one to go to. This would be most useful for those that don’t know the city very well, for instance tourists.</p>
+            <br>
+            <p>Another goal in order to further aid users is to include a location mapping and step by step direction service that helps them navigate to their nearest restroom by using Open Maps resources. In order to achieve our main aim, this app will incorporate key specifications such as a geolocation API to identify each user's location, thereby providing the user with the most accurate, closest and easily accessible restrooms.  It will then be used to assist users with planning the quickest route, which will be identified using OpenMaps</p>
+            <br>
+            <p>Added to this we plan to provide users with a review page that may be found along with the navigational details, that utilise user input on useability and approvability on a list of set markers that assess on cleanliness, accessibility, general appearance, and any important features such as baby changing rooms and wheelchair accessibility. The reason for this is quite simple. So that people can find the best facilities near them that meet all their needs. </p>
+            
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter email">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="blog-right">
+            <h3>Categories</h3>
+            <div>
+                <span><a href="aims.html">AIMS</a></span>
+                <span>1</span>
+            </div>
+            <div>
+                <span><a href="plansprogress.html">PLANS & PROCESS</a></span>
+                <span>1</span>
+            </div>
+            <div>
+                <span><a href="roles.html">ROLES</a></span>
+                <span>1</span>
+            </div>
+            <div>
+                <span><a href="scopelimit.html">SCOPE & LIMITS</a></span>
+                <span>1</span>
+            </div>
+            <div>
+                <span><a href="toolstech.html" >TOOLS & TECHNOLOGY</a></span>
+                <span>1</span>
+            </div>
+            <div>
+                <span><a href="testing.html" >TESTING</a></span>
+                <span>1</span>
+            </div>
+            <div>
+                <span><a href="timeframe.html" >TIMEFRAME</a></span>
+                <span>1</span>
+            </div>
+            <div>
+                <span><a href="risk.html" >RISK</a></span>
+                <span>1</span>
+            </div>
+            <div>
+                <span><a href="group.html">GROUP PROCESS & COMMUNICATION</a></span>
+                <span>1</span>
+            </div>
+        </div> 
+    
+    </div>
+    </section>
+	
+<!-------- footer ---------->
+
+<section class="footer">
+        <p>Just a bunch of fun loving students, looking to make waves in the IT World! </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+		<p>made with <i class="fa fa-heart-o"></i> by Group A2S3</p>
+</section>  
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    

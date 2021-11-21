@@ -7,28 +7,40 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
 </head>
 <body>
-    <section class="header">
-        
+    <section class="header">        
         <nav>
             <a href="index.html"><img src="images/logo.png"></a>
             <div class="nav-links" id="navLinks">  
                 <i class="fa fa-close" onclick="hideMenu()"></i>
-                <ul>
+                <ul id="nav">
                     <li><a href="index.html">HOME</a></li>
-                    <li><a href="HOW IT WORKS.html">HOW IT WORKS</a></li>
+                    <li>
+                        <a href="#">HOW IT WORKS</a>
+                        <ul>
+                            <li><a href="aims.html">AIMS</a></li>
+                            <li><a href="plansprogress.html">PLANS & PROCESS</a></li>
+                            <li><a href="roles.html">ROLES</a></li>
+                            <li><a href="scopelimit.html">SCOPE & LIMITS</a></li>
+                            <li><a href="toolstech.html" >TOOLS & TECHNOLOGY</a></li>
+                            <li><a href="testing.html" >TESTING</a></li>
+                            <li><a href="timeframe.html" >TIMEFRAME</a></li>
+                            <li><a href="risk.html" >RISK</a></li>
+                            <li><a href="group.html">GROUP PROCESS & COMMUNICATION</a></li>
+                        </ul>
+                    </li>
                     <li><a href="download.html">DOWNLOAD</a></li>
-		    <li><a href="about us.html">ABOUT US</a></li>
+					<li><a href="about.html">ABOUT US</a></li>
                     <li><a href="contact.html">CONTACT</a></li>
                 </ul>
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
-        </nav>
+        </nav>        
         
         <div class="text-box">
             <h1>TOODALOO</h1>
 			<h2>WHEN YOU NEED TO GO, YOU NEED TO GO</h>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.</p>
-            <a href="contact.html" class="hero-btn">DOWNLOAD NOW</a>
+			<br><br>
+            <a href="https://play.google.com/store" class="hero-btn">DOWNLOAD NOW</a>
         </div>
     </section>
     
@@ -36,19 +48,19 @@
     
     <section class="Download">
         <h1>What is TooDaLoo</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>Finding your next restroom has never been easier.</p>
         <div class="row">
             <div class="Download-col">
                 <h3>Download the App</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.</p>
+                <p>Download the app from the play store</p>
             </div>
             <div class="Download-col">
                 <h3>Find your Loo</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.</p>
+                <p>Search your nearest restroom.</p>
             </div>
             <div class="Download-col">
                 <h3>Leave a Review</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.</p>
+                <p>Leave your feedback</p>
             </div>
         </div>
     </section>
@@ -57,22 +69,22 @@
     
     <section class="facility">
         <h1>Facilities</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>If you are needing a restroom, gender specific or even a shower... you've come to the right place..</p>
             <div class="row">
                 <div class="facility-col">
-                    <img src="images/library.png">
+                    <img class="m-auto" src="images/disabled.png">
                     <h3>Disability Access</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla.</p>
+                    <p>Require easier access? No worries! We've got you covered.</p>
                 </div>
                 <div class="facility-col">
-                    <img src="images/basketball.png">
+                    <img class="m-auto" src="images/gendertoilets.png">
                     <h3>Gender Specific</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla.</p>
+                    <p>Looking for gender specific, or perhaps no gender.<br>Either way, we got you!</p>
                 </div>
                 <div class="facility-col">
-                    <img src="images/cafeteria.png">
-                    <h3>Air Hand Dryers</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla.</p>
+                    <img class="m-auto" src="images/facilities.png">
+                    <h3>Other Facilities</h3>
+                    <p>Maybe you require a shower, or a change table... no problem!.</p>
                 </div>
             </div>
     </section>
@@ -82,12 +94,12 @@
     
     <section class="testimonials">
         <h1>What Our Users Says</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>Don't take our word for it</p>
             <div class="row">
                 <div class="testimonial-col">
                     <img src="images/user1.jpg">
                     <div> 
-                        <p>NEAT CLEAN AND TIDY! WHO DOESN'T LOVE THE A CLEAN LOO!</p>
+                        <p>I really needed this when trying on wedding dresses! This came in handy!</p>
                         <h3>Christine Berkley</h3>
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
@@ -99,7 +111,7 @@
                 <div class="testimonial-col">
                     <img src="images/user2.jpg">
                     <div>
-                        <p>I ORDERED THE WHOOPER, AND SHE WAS BEAUT!.</p>
+                        <p>I was visiting Melbourne and was unfamiliar with the area. Was really helpful.</p>
                         <h3>David Byer</h3>
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
@@ -116,25 +128,37 @@
 
 <section class="cta">
     
-       <h1>Download Now<br>Apple & Andriod Devices</h1>
-        <a href="INSERT LINK HERE :) " class="hero-btn">HIT THAT BUTTON!</a>
+       <h1>Download Now<br>From the Play Store</h1>
+        <a href="https://play.google.com/store" class="hero-btn">HIT THAT BUTTON!</a>
     
 </section>    
+
+<!-- <section> -->
+    <!------ Assessment Links ------>
+    <!-- <a href="aims.html" class="hero-btn">AIMS</a>
+    <a href="plansprogress.html" class="hero-btn">PLANS & PROCESS</a>
+    <a href="roles.html" class="hero-btn">ROLES</a>
+    <a href="scopelimit.html" class="hero-btn">SCOPE & LIMITS</a>
+    <a href="toolstech.html" class="hero-btn">TOOLS & TECHNOLOGY</a>
+    <a href="testing.html" class="hero-btn">TESTING</a>
+    <a href="timeframe.html" class="hero-btn">TIMEFRAME</a>
+    <a href="risk.html" class="hero-btn">RISK</a>
+    <a href="group.html" class="hero-btn">GROUP PROCESS & COMMUNICATION</a> -->
+<!-- </section> -->
+
  
 <!-------- footer ---------->
 
 <section class="footer">
-        <h4>About Us</h4>
         <p>Just a bunch of fun loving students, looking to make waves in the IT World! </p>
         <div class="icons">
-            <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
-            <a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
-            <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
-            <a href="https://www.linkedin.com"><i class="fa fa-linkedin"></i></a>
-            
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
         </div>
-        <a class="footer-link"><p>made with <i class="fa fa-heart-o"></i> by Group A2S2</p></a>
-</section>    
+		<p>made with <i class="fa fa-heart-o"></i> by Group A2S3</p>
+</section>   
   
   
 <!----JavaScript for toggle menu---->

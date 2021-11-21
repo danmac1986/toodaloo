@@ -1,0 +1,137 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>COSC2196 <br> Introduction to Information Technology</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul id="nav">
+                    <li><a href="index.html">HOME</a></li>
+                    <li>
+                        <a href="#">HOW IT WORKS</a>
+                        <ul>
+                            <li><a href="aims.html">AIMS</a></li>
+                            <li><a href="plansprogress.html">PLANS & PROCESS</a></li>
+                            <li><a href="roles.html">ROLES</a></li>
+                            <li><a href="scopelimit.html">SCOPE & LIMITS</a></li>
+                            <li><a href="toolstech.html" >TOOLS & TECHNOLOGY</a></li>
+                            <li><a href="testing.html" >TESTING</a></li>
+                            <li><a href="timeframe.html" >TIMEFRAME</a></li>
+                            <li><a href="risk.html" >RISK</a></li>
+                            <li><a href="group.html">GROUP PROCESS & COMMUNICATION</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="download.html">DOWNLOAD</a></li>
+					<li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav> 
+        <div class="text-box">
+            <h1>HOW IT WORKS</h1>
+        </div>
+    </section>
+    
+<!---------- Blog Page Content ---------->
+    
+    <section class="blog-content">
+    <div class="row">
+    <div class="blog-left">
+        <img src="images/search.png">
+        <h2>Roles</h2>
+        
+        <p>We don’t necessarily think it is important that we will assign roles for each team member. It is quite possible we might have certain areas of focus for different people, so it may be easier to complete the tasks in the given timeframe. But for most of the project, we will most likely work on each part as a group. We opted for our team to work in all sections of the development process,as  we thought that not only would this be a viable choice, but we all gain experience in each of the development stages. The reason for this being that this assignment has more sections related to the group’s project rather than information about ourselves. <br>
+		Another reason being that the sections on this assignment can’t really be split evenly. Some sections are more extensive than others and no one person really excels in one specific area. This not only allowed for each team member to have input at each stage, but we were also able to gain new skills and utilise our strengths at the development stages we were experienced in. This provided us with versatility in our positions to utilise creativity, flexibility and innovation. Also, it’s probably best if the group as a whole has an input on all areas considering we have to do a presentation about it for assignment 5. <br>
+		Not only did we find this to be exciting, but we also found that this made the communication between the group more successful. We agreed that our communication would be over Microsoft Teams, catching up twice or more (if required) weekly. We found that all team members had valid input and had great points to make during discussions. </p>
+        
+        <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+            </form>
+        </div>
+    </div>
+        
+    <div class="blog-right">
+        <h3>Categories</h3>
+        <div>
+            <span><a href="aims.html">AIMS</a></span>
+            <span>1</span>
+        </div>
+        <div>
+            <span><a href="plansprogress.html">PLANS & PROCESS</a></span>
+            <span>1</span>
+        </div>
+        <div>
+            <span><a href="roles.html">ROLES</a></span>
+            <span>1</span>
+        </div>
+        <div>
+            <span><a href="scopelimit.html">SCOPE & LIMITS</a></span>
+            <span>1</span>
+        </div>
+        <div>
+            <span><a href="toolstech.html" >TOOLS & TECHNOLOGY</a></span>
+            <span>1</span>
+        </div>
+        <div>
+            <span><a href="testing.html" >TESTING</a></span>
+            <span>1</span>
+        </div>
+        <div>
+            <span><a href="timeframe.html" >TIMEFRAME</a></span>
+            <span>1</span>
+        </div>
+        <div>
+            <span><a href="risk.html" >RISK</a></span>
+            <span>1</span>
+        </div>
+        <div>
+            <span><a href="group.html">GROUP PROCESS & COMMUNICATION</a></span>
+            <span>1</span>
+        </div>    
+    </div> 
+    
+    </div>
+    </section>
+	
+<!-------- footer ---------->
+
+<section class="footer">
+        <p>Just a bunch of fun loving students, looking to make waves in the IT World! </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+		<p>made with <i class="fa fa-heart-o"></i> by Group A2S3</p>
+</section>  
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    

@@ -1,0 +1,136 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>COSC2196 <br> Introduction to Information Technology</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul id="nav">
+                    <li><a href="index.html">HOME</a></li>
+                    <li>
+                        <a href="#">HOW IT WORKS</a>
+                        <ul>
+                            <li><a href="aims.html">AIMS</a></li>
+                            <li><a href="plansprogress.html">PLANS & PROCESS</a></li>
+                            <li><a href="roles.html">ROLES</a></li>
+                            <li><a href="scopelimit.html">SCOPE & LIMITS</a></li>
+                            <li><a href="toolstech.html" >TOOLS & TECHNOLOGY</a></li>
+                            <li><a href="testing.html" >TESTING</a></li>
+                            <li><a href="timeframe.html" >TIMEFRAME</a></li>
+                            <li><a href="risk.html" >RISK</a></li>
+                            <li><a href="group.html">GROUP PROCESS & COMMUNICATION</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="download.html">DOWNLOAD</a></li>
+					<li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav> 
+        <div class="text-box">
+            <h1>HOW IT WORKS</h1>
+        </div>
+    </section>
+    
+<!---------- Blog Page Content ---------->
+    
+    <section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/restroom.png">
+            <h2>Scope & Limits</h2>
+            
+            <p>Due to the time limitation and our limited IT knowledge and skills, the outcome of this project would be screenshots of the expected app, showing all features of it.<br>
+            When assessing the scope of this project, we hope to develop a working prototype in a span of 16 weeks, that will likely show ideally how this app may be executed, but with limited functionality. We aim to deliver a UI- user interface that displays all public toilets, as well as all the restrooms listed in the malls. For the prototype, we will avoid including the data of other venue restrooms, in order to work on the other aspects of the app, and reduce the timeframe needed to accurately collect and list all venue restrooms. Another deliverable we aim to include is the live update of surges of any location, that would indicate a queue for any particular restroom that may be listed. A key feature we will be omitting from the prototype will be user based review platform, although we will clearly identify this with significant online reviews that may be collected by the team during the data collection phase. We plan to be able to create a rudimentary skeletal  model of our mobile application for presentation by week 6. Following the development of a working prototype by week 11 we will most likely proceed with building this app with the assistance from the technical team we plan on recruiting to further develop this project. 
+
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter email">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+            </div>
+        </div>
+            
+        <div class="blog-right">       
+            
+            <h3>Categories</h3>
+            <div>
+                <span><a href="aims.html">AIMS</a></span>
+                <span>1</span>
+            </div>
+            <div>
+                <span><a href="plansprogress.html">PLANS & PROCESS</a></span>
+                <span>1</span>
+            </div>
+            <div>
+                <span><a href="roles.html">ROLES</a></span>
+                <span>1</span>
+            </div>
+            <div>
+                <span><a href="scopelimit.html">SCOPE & LIMITS</a></span>
+                <span>1</span>
+            </div>
+            <div>
+                <span><a href="toolstech.html" >TOOLS & TECHNOLOGY</a></span>
+                <span>1</span>
+            </div>
+            <div>
+                <span><a href="testing.html" >TESTING</a></span>
+                <span>1</span>
+            </div>
+            <div>
+                <span><a href="timeframe.html" >TIMEFRAME</a></span>
+                <span>1</span>
+            </div>
+            <div>
+                <span><a href="risk.html" >RISK</a></span>
+                <span>1</span>
+            </div>
+            <div>
+                <span><a href="group.html">GROUP PROCESS & COMMUNICATION</a></span>
+                <span>1</span>
+            </div> 
+        </div> 
+    
+    </div>
+</section>
+	
+<!-------- footer ---------->
+
+<section class="footer">
+        <p>Just a bunch of fun loving students, looking to make waves in the IT World! </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+		<p>made with <i class="fa fa-heart-o"></i> by Group A2S3</p>
+</section>   
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    
